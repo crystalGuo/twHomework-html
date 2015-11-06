@@ -248,10 +248,10 @@ header {
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    
+
     line-height: 30px;
     text-align: center;
-    
+
     margin: -15px 44% 0;
     background-color: white;
     border: solid 1px #E2E2E2;
@@ -266,6 +266,48 @@ header {
     margin: 2px 11%;
     height: 45px;
     line-height: 14px;
+    color: #999998;
+}
+
+#choose {
+    height: 527px;
+    border-bottom: solid 2px #E2E2E2;
+}
+
+#choose .title {
+  width: 30%;
+  margin: 79px auto 70px;
+  font: 2em bold "Microsoft YaHei";
+}
+
+#choose ul {
+    float: left;
+    width: 30%;
+    margin-left: 12.5%;
+}
+
+#choose ul li {
+    padding-bottom: 122px;
+}
+
+#choose ul li div {
+    float: left;
+}
+#choose ul li img {
+    height: 37px;
+    margin-top: -5px;
+}
+#choose .text {
+    width: 80.9%;
+    margin-left: 8.3%;
+}
+#choose .text p:nth-child(1) {
+    font-weight: bolder;
+}
+#choose .text p:nth-child(2) {
+    font-size: 0.8em;
+    margin-top: 14px;
+    line-height: 15px;
     color: #999998;
 }
 
@@ -342,6 +384,3 @@ ol, ul {
 #bottom-nav ul li img {
 	width: 20px;
 }
-
-
-
