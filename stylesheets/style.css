@@ -310,7 +310,57 @@ header {
     line-height: 15px;
     color: #999998;
 }
-
+#feed {
+    color: #626279;
+    height: 442px;
+}
+#feed ul {
+    height: 46px;
+    margin: 65px auto 0;
+    width: 26%;
+    border: solid 2px #9595A4;
+    border-radius: 4px;
+}
+#feed ul li:nth-child(1) {
+    background-color: #626279;
+    color: white;
+}
+#feed ul li {
+    float: left;
+    width: 50%;
+    line-height: 46px;
+    text-align: center;
+    font-weight: bolder;
+}
+#feed .quota {
+    width: 2%;
+    margin: 32px auto 0;
+}
+#feed .grap {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+#feed p {
+    margin: 20px auto 0;
+    width: 73%;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 19px;
+    color: #AAA9AB;
+}
+#feed .imgSet {
+    margin: 101px auto 0;
+    width: 33%;
+}
+#feed .imgSet img {
+    width: 20%;
+    margin: 0 6%;
+    border-radius: 48%;
+}
 footer {
 	height: 49px;
 	background: url("../images/sunset-resized.jpg") center center no-repeat;
